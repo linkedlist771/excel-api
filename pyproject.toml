@@ -1,0 +1,28 @@
+[project]
+name = "excel-api"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "LiDing", email = "72634327+linkedlist771@users.noreply.github.com"},
+]
+dependencies = [
+    "setuptools>=70.1.1",
+    "fastapi>=0.111.0",
+    "argparse>=1.4.0",
+    "loguru>=0.7.2",
+    "fire>=0.6.0",
+    "uvicorn>=0.30.1",
+    "pandas>=2.2.2",
+    "pydantic>=2.7.4",
+]
+requires-python = ">=3.9"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
