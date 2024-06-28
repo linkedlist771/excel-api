@@ -19,6 +19,12 @@ http://0.0.0.0:6238/docs
 ```
 
 5. unit test
+- set env
+> - In windows: `set PYTHONPATH=%CD%\src;%PYTHONPATH%`
+> - In linux: `export PYTHONPATH=$PWD/src:$PYTHONPATH`
+> 
+
+
 ```bash
 pytest
 ```
